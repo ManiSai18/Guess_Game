@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title style="font-family: Agency FB;">Vs Computer</title>
+        <link rel="stylesheet" href="VsCom.css">
+        <script>
+            function passvalue1()
+                {
+                    var name=document.getElementById("s6").value;
+                    localStorage.setItem("textvalue1",name);
+                    return false;
+                }
+            function passvalue2()
+                {
+                    var name=document.getElementById("s8").value;
+                    localStorage.setItem("textvalue2",name);
+                    return false;
+                }
+            function passvalue3()
+                {
+                    var name=document.getElementById("s10").value;
+                    localStorage.setItem("textvalue3",name);
+                    return false;
+                }
+        </script>
+    
+    </head>
+    <body>
+        <h1 id="s1">V/s  Computer</h1>
+        <h2 id="s2">Set Your Play</h2>    
+        <h2 id="s3"> >>Easy</h2>
+        <h2 id="s4"> >>Medium</h2>
+        <h2 id="s5"> >>Hard</h2>
+        <form action="com_easy.html">
+            <input type="text" name="name" id="s6" placeholder="  Enter Your NAME">
+            <button type="submit" id="s7" value="C lick" onclick="passvalue1();">PLAY</button>
+        </form>
+        <form action="com_med.html">
+            <input type="text" name="name" id="s8" placeholder="  Enter Your NAME">
+            <button type="submit" id="s9" value="C lick" onclick="passvalue2();">PLAY</button>
+        </form>
+        <form action="com_hrd.html">
+            <input type="text" name="name" id="s10" placeholder="  Enter Your NAME">
+            <button type="submit" id="s11" value="C lick" onclick="passvalue3();">PLAY</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(1, 5, 43, 0.973),  #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,rgba(1, 5, 43, 0.973), #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#s1{
+	background-image: url(image1.jpg);
+    background-size: cover;
+    font-family: "Agency FB";
+    word-spacing: 5px;
+    width: 1000px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 140px;
+	line-height: .95;
+    margin: 10px 100px;
+    position: absolute;
+    left: 230px;
+}
+#s2{
+    position: absolute;
+    font-family: "Agency FB";
+    font-size: 50px;
+    color: #8E0E00;
+    top: 150px;
+    left: 50px;
+}
+#s3{
+    position: absolute;
+    font-family: "Agency FB";
+    font-size: 60px;
+    top: 200px;
+    left: 80px;
+    background-image: url(https://cdn.lowgif.com/full/97cd12fb79afbcda-pro-flame-gifs-find-make-share-gfycat-gifs.gif);
+    background-size: cover;
+    color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+    text-transform: uppercase;
+}
+#s4{
+    position: absolute;
+    font-family: "Agency FB";
+    font-size: 60px;
+    top: 200px;
+    left: 900px;
+    background-image: url(https://i.pinimg.com/originals/5b/c7/0b/5bc70b4a064195479a266fb528726e3f.gif);
+    background-size: cover;
+    color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+    text-transform: uppercase;
+}
+#s5{
+    position: absolute;
+    font-family: "Agency FB";
+    font-size: 70px;
+    top: 400px;
+    left: 500px;
+    letter-spacing: 10px;
+    background-image: url(https://i.gifer.com/VIrG.gif);
+    background-size: cover;
+    color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+    text-transform: uppercase;
+}
+#s6{
+    position: absolute;
+    top: 270px;
+    left: 250px;
+    height: 40px;
+    width: 200px;
+    font-family: "Agency FB";
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: rgba(1, 5, 43, 0.973);
+    border: maroon;
+    color: #918C39;
+}
+#s7{
+    position: absolute;
+    top: 270px;
+    left: 393px;
+    font-family: "Agency FB";
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 40px;
+    width: 60px;
+    border: maroon;
+    background-color: #918C39;
+    font-size: 24px;
+    font-style: italic;
+}
+#s8{
+    position: absolute;
+    top: 270px;
+    left: 1120px;
+    height: 40px;
+    width: 200px;
+    font-family: "Agency FB";
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: rgba(1, 5, 43, 0.973);
+    border: maroon;
+    color: #918C39;
+}
+#s9{
+    position: absolute;
+    top: 270px;
+    left: 1263px;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 40px;
+    border: maroon;
+    background-color: #918C39;
+    font-family: "Agency FB";
+    font-size: 24px;
+    font-style: italic;
+    width: 60px;
+}
+#s10{
+    position: absolute;
+    top: 480px;
+    left: 750px;
+    height: 40px;
+    width: 200px;
+    font-family: "Agency FB";
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: rgba(1, 5, 43, 0.973);
+    border: maroon;
+    color: #918C39;
+}
+#s11{
+    position: absolute;
+    top: 480px;
+    left: 893px;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 40px;
+    border: maroon;
+    background-color: #918C39;
+    font-family: "Agency FB";
+    font-size: 24px;
+    font-style: italic;
+    width: 58px;
+}

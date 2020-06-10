@@ -1,0 +1,256 @@
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(1, 5, 43, 0.973),  #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,rgba(1, 5, 43, 0.973), #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#a1{
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    font-family: "Agency FB";
+    word-spacing: 5px;
+    width: 700px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 140px;
+	line-height: .95;
+    margin: 10px 100px;
+    position: absolute;
+    left: 400px;
+}
+#a2{
+	position: absolute;
+	top: 70px;
+	left: 830px;
+	font-family: "Agency FB";
+	font-size: 40px;
+	color: rgba(1, 5, 43, 0.973);
+}
+#a3{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	font-family: "Agency FB";
+	font-size: 50px;
+	background: rgba(1, 5, 43, 0.973);  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right,#918C39,#000f38);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,#918C39, #000f38);
+    background-size: cover;
+    font-family: "Agency FB";
+    word-spacing: 5px;
+    width: 700px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+#a3_1{
+	position: absolute;
+	top: 250px;
+	left: 100px;
+	font-family: "Agency FB";
+	font-size: 30px;
+	background-color: #918C39;
+	background-size: cover;
+    word-spacing: 5px;
+    width: 700px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+#a4{
+	position: absolute;
+    top: 350px;
+    left: 250px;
+    height: 70px;
+    width: 400px;
+    font-family: "Agency FB";
+    font-size: 40px;
+    border-radius: 33px;
+    background-color: rgba(1, 5, 43, 0.973);
+	border: maroon;
+	color: #918C39;
+}
+#a5{
+	position: absolute;
+    top: 350px;
+    left: 550px;
+    font-family: "Agency FB";
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 70px;
+    width: 100px;
+    border: maroon;
+    background-color: #918C39;
+    font-size: 24px;
+    font-style: italic;
+}
+#a3_2{
+	position: absolute;
+	top: 138px;
+	left: 800px;
+	font-family: "Agency FB";
+	font-size: 30px;
+	background-color: #918C39;
+	background-size: cover;
+    word-spacing: 5px;
+    width: 200px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+}
+#snackbar {
+	font-family: "Agency FB";
+	font-size: 25px;
+	font-style: bold;
+	visibility: hidden; 
+	min-width: 250px; 
+	margin-left: -125px;
+	background-color: #918C39;
+	color: rgba(1, 5, 43, 0.973); 
+	text-align: center; 
+	border-radius: 5px;
+	padding: 16px; /* Padding */
+	position: fixed; /* Sit on top of the screen */
+	z-index: 1; /* Add a z-index if needed */
+	left: 50%; /* Center the snackbar */
+	bottom: 30px; /* 30px from the bottom */
+  }
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+	visibility: visible; /* Show the snackbar */
+	/* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+	However, delay the fade out process for 2.5 seconds */
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+  }
+
+.hr2{
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	background: rgba(1, 5, 43, 0.973);
+	height: 50px;
+	width: 1478px;
+}
+#f1{
+	position: absolute;
+    top: 150px;
+    left: 1050px;
+    font-family: "Agency FB";
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    border: maroon;
+    background-color: #918C39;
+    font-size: 24px;
+    font-style: italic;
+	
+}
+#res2{
+	position: absolute;
+	top: 250px;
+	left: 800px;
+	font-family: "Agency FB";
+	font-size: 30px;
+	background-color: #918C39;
+	background-size: cover;
+    word-spacing: 5px;
+    width: 200px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	
+}
+#res3{
+	position: absolute;
+	top: 285px;
+	left: 930px;
+	font-family: "Agency FB";
+	font-size: 30px;
+	background-color: #918C39;
+	background-size: cover;
+    word-spacing: 5px;
+    width: 200px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	
+}
+#res4{
+	position: absolute;
+	top: 285px;
+	left: 980px;
+	font-family: "Agency FB";
+	font-size: 30px;
+	background-color: #918C39;
+	background-size: cover;
+    word-spacing: 5px;
+    width: 200px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+		
+}
+#res5{
+	position: absolute;
+	top: 470px;
+	left: 800px;
+	font-family: "Agency FB";
+	font-size: 50px;
+	background-color: rgba(1, 5, 43, 0.973);
+	background-size: cover;
+    word-spacing: 5px;
+    width: 550px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+
+}	
+
+#res{
+	position: absolute;
+	top: 350px;
+	left: 800px;
+	font-family: "Agency FB";
+	font-size: 50px;
+	background-color: rgba(1, 5, 43, 0.973);
+	background-size: cover;
+    word-spacing: 5px;
+    width: 500px;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	
+}
